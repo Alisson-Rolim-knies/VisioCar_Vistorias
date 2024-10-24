@@ -3,13 +3,13 @@ body{
 }
 
 .navbar{
-    background-color: #1b1a1a;
+    background-color: #eb700c;
 }
 
 
 #cabecalho .nav .nav-link.active,
 .btn-primary  {
-    background-color: #eb700c;
+    background-color: #111111;
     color: #fffcfc;
     border: none;
 }
@@ -25,7 +25,7 @@ body{
 .navbar-brand,
 .navbar-brand:hover,
 .nav-cardapio .nav-link.active:hover{
-    color: #eb700c;
+    color: #fffcfc;
 }
 
 .navbar-toggler {
@@ -68,6 +68,19 @@ body{
 
 .social-links a{
     text-decoration: none; /*para remover o _ entre os icones */
+}
+
+.carousel {
+    max-height: 260px;
+    overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse a altura */
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto; /* Mantém a proporção da largura */
+    height: auto; /* Mantém a proporção da altura */
+    object-fit: contain; /* Garante que a imagem se ajuste ao contêiner */
 }
 
 @media (max-width: 767px) {  /*para ajustar o tamanho da imagem do carosel no celular*/
