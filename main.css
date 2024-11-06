@@ -62,12 +62,12 @@ body{
 }
 
 .social-links li{
-    list-style: none; /*para retirar os balits dos icones */
-    display: inline; /*para ficar uma ao lado do outro */
+    list-style: none; 
+    display: inline; 
 }
 
 .social-links a{
-    text-decoration: none; /*para remover o _ entre os icones */
+    text-decoration: none; 
 }
 
 footer {
@@ -79,6 +79,10 @@ footer {
 
 .maps {
     max-width: 100%; /* opcional, para garantir responsividade */
+}
+
+#carousel_border {
+    border-bottom: #1b1a1a solid 1px;
 }
 
 @media (max-width: 767px) {  /*para ajustar o tamanho da imagem do carosel no celular*/
