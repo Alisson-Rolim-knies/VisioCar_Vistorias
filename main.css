@@ -70,6 +70,20 @@ body{
     text-decoration: none; /*para remover o _ entre os icones */
 }
 
+<<<<<<< HEAD
+=======
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.maps {
+    max-width: 100%; /* opcional, para garantir responsividade */
+}
+
+>>>>>>> c73a2b6 (Mensagem descritiva sobre o que foi adicionado ou alterado)
 @media (max-width: 767px) {  /*para ajustar o tamanho da imagem do carosel no celular*/
     .carousel-item img{
         height: 100px; /*limitou a altura da imagem em 280px*/
