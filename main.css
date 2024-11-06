@@ -6,7 +6,6 @@ body{
     background-color: #1b1a1a;
 }
 
-
 #cabecalho .nav .nav-link.active,
 .btn-primary  {
     background-color: #eb700c;
@@ -23,17 +22,12 @@ body{
 
 #cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover{
+.navbar-brand:hover{
     color: #eb700c;
 }
 
 .navbar-toggler {
     background-color: #eb700c;
-}
-
-#precos{
-    background-color: #f389323f;
 }
 
 .section-title {
@@ -42,22 +36,7 @@ body{
     font-style: italic;
 }
 
-#sobre-o-restaurante,
-#cardapio{
-    background-color: #ffeae6 ;
-}
-
 .text-colored{
-    color: #eb700c;
-}
-
-.nav-cardapio .nav-link.active,
-#fale-conosco button{
-    background-color: #eb700c;
-    color: #fff;
-}
-
-.nav-cardapio .nav-link:hover{
     color: #eb700c;
 }
 
@@ -75,6 +54,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-bottom: #1b1a1a solid 25px;
 }
 
 .maps {
@@ -88,6 +68,9 @@ footer {
 @media (max-width: 767px) {  /*para ajustar o tamanho da imagem do carosel no celular*/
     .carousel-item img{
         height: 100px; /*limitou a altura da imagem em 280px*/
+    }
+    .carousel-indicators{
+        display: none;
     }
 }
 
